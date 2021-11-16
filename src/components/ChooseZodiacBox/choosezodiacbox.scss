@@ -1,0 +1,78 @@
+.as_sign_ul li {
+  margin-top: 40px;
+}
+.as_sign_box {
+  background-color: #0e344d;
+  max-width: 230px;
+  padding: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  & > a {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .as_sign {
+    background-color: #07273c;
+    height: 80px;
+    width: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 38px;
+    position: relative;
+    &:after,
+    &:before {
+      content: "";
+      position: absolute;
+      left: 100%;
+      top: 0;
+      bottom: 0;
+      border-top: 40px solid transparent;
+      border-bottom: 40px solid transparent;
+      border-left: 18px solid #07273c;
+    }
+    &:before {
+      left: auto;
+      right: 100%;
+      border-left: none;
+      border-right: 18px solid #07273c;
+    }
+  }
+  &:after,
+  &:before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 25px solid #0e344d;
+  }
+  &:before {
+    left: auto;
+    right: 100%;
+    border-left: none;
+    border-right: 25px solid #0e344d;
+  }
+  &:hover {
+    background-color: #ff7010;
+    .as_sign {
+      background-color: #ff7010;
+      &:after {
+        border-left: 25px solid #ff7010;
+      }
+      &:before {
+        border-right: 25px solid #ff7010;
+      }
+    }
+    &:after {
+      border-left: 25px solid #ff7010;
+    }
+    &:before {
+      border-right: 25px solid #ff7010;
+    }
+  }
+}

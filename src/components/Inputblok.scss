@@ -1,0 +1,64 @@
+.as_padder {
+  background-color: #031d2e;
+}
+.as_sign_form {
+  width: 70%;
+  background-color: #07273c;
+  padding: 25px 33px 50px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.as_sign_form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+}
+.as_sign_form ul li {
+  max-width: 270px; 
+  padding: 0 15px;
+}
+li.as_form_box {
+  text-align: left;
+}
+.input_title {
+  color: white;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.as_input_feild {
+  position: relative;
+  width: 100%;
+}
+.as_input_feild > span {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.form-control {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control {
+  height: 50px;
+  background-color: #17384e;
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+  color: #e5f0f5;
+  padding: 0 40px 0 30px;
+}

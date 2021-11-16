@@ -1,0 +1,14 @@
+.as_blog_wrapper {
+  background-image: url(../assets/image/bg5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog-area {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  gap: 25px;
+  margin: 0 auto;
+}

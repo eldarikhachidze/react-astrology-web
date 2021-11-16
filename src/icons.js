@@ -1,0 +1,21 @@
+const icons = {
+    headphone:"/icons/headphone.svg",
+    mail:"/icons/mail.svg",
+    login:"/icons/login.svg",
+    search:"/icons/search.png",
+    banner_image:"/icons/banner_image.png",
+    service1:"/icons/service1.svg",
+    user:"/icons/user.svg",
+    address:"/icons/address.svg",
+    call:"/icons/call.svg",
+    map:"/icons/map.svg",
+    facebook:"/icons/facebook.svg",
+    google:"/icons/google.svg",
+    youtube:"/icons/youtube.svg",
+    twitter:"/icons/twitter.svg",
+    about1:"/icons/about1.jpg",
+    about2:"/icons/about2.jpg",
+    about3:"/icons/about3.jpg",
+    about4:"/icons/about4.jpg",
+}
+export default icons

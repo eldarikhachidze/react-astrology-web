@@ -1,0 +1,24 @@
+.as_whychoose_wrapper {
+  background-color: #031d2e;
+}
+.as_number {
+  display: block;
+  position: relative;
+  width: 130px;
+  margin: 0 auto;
+}
+.as_whychoose_box .as_number > span {
+  color: var(--white-color);
+  font-size: 24px;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.whychooseus-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
